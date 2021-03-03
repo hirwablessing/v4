@@ -9,7 +9,7 @@ const StyledHeroSection = styled.section`
   flex-direction: column;
   align-items: flex-start;
   min-height: 100vh;
-
+  
   h1 {
     margin: 0 0 30px 4px;
     color: var(--green);
