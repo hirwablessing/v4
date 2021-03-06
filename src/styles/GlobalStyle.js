@@ -11,12 +11,12 @@ const GlobalStyle = createGlobalStyle`
     --navy: #0a192f;
     --light-navy: #172a45;
     --lightest-navy: #303C55;
-    --navy-shadow: rgba(2, 12, 27, 0.7);
+    --navy-shadow: rgba(203, 186, 156, 0.2);
     --slate: #8892b0;
     --light-slate: #a8b2d1;
     --lightest-slate: #ccd6f6;
     --white: #e6f1ff;
-    --green: #64ffda;
+    --green: #CBBA9C;
     --green-tint: rgba(100, 255, 218, 0.1);
 
     --font-sans: 'Calibre', 'San Francisco', 'SF Pro Text', -apple-system, system-ui, sans-serif;
@@ -67,12 +67,12 @@ const GlobalStyle = createGlobalStyle`
 
   body {
     margin: 0;
-    width: 100%;
+    min-width: 100% !important;
     min-height: 100%;
-    overflow-x: hidden;
+    // overflow-x: hidden;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
-    background-color: var(--navy);
+    background-color: black;
     color: var(--slate);
     font-family: var(--font-sans);
     font-size: var(--fz-xl);
@@ -163,7 +163,7 @@ const GlobalStyle = createGlobalStyle`
   h6 {
     margin: 0 0 10px 0;
     font-weight: 600;
-    color: var(--lightest-slate);
+    // color: var(--lightest-slate);
     line-height: 1.1;
   }
 
@@ -195,7 +195,7 @@ const GlobalStyle = createGlobalStyle`
       position: relative;
       bottom: 4px;
       counter-increment: section;
-      content: '0' counter(section) '.';
+      // content: '0' counter(section) '.';
       margin-right: 10px;
       color: var(--green);
       font-family: var(--font-mono);

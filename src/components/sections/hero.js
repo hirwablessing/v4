@@ -3,13 +3,19 @@ import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import styled from 'styled-components';
 import { email } from '@config';
 import { navDelay, loaderDelay } from '@utils';
+import bgprofile from '../../images/bgprofile.png';
 
 const StyledHeroSection = styled.section`
   ${({ theme }) => theme.mixins.flexCenter};
   flex-direction: column;
   align-items: flex-start;
   min-height: 100vh;
-  
+  background-size: 590px 780px;
+
+  background-position: calc(100% + 90px) 80px;
+
+  background-repeat: no-repeat;
+
   h1 {
     margin: 0 0 30px 4px;
     color: var(--green);
@@ -49,10 +55,15 @@ const Hero = () => {
 
   const one = <h1>Hi, my name is</h1>;
   const two = <h2 className="big-heading">Blessing Hirwa.</h2>;
-  const three = <h3 className="big-heading-sub-text">I use code to make computers look smarter than they are.</h3>;
+  const three = (
+    <h3 className="big-heading-sub-text">
+      I use code to make computers look smarter than they are.
+    </h3>
+  );
   const four = (
     <p>
-      I'm a software engineer based in Kigali, Rwanda specializing in modular systems, interface design and frontend web development.
+      I'm a software engineer based in Kigali, Rwanda specializing in modular systems, interface
+      design and frontend web development.
     </p>
   );
   const five = (
@@ -64,7 +75,7 @@ const Hero = () => {
   const items = [one, two, three, four, five];
 
   return (
-    <StyledHeroSection>
+    <StyledHeroSection style={{ backgroundImage: `url(${bgprofile})` }}>
       <TransitionGroup component={null}>
         {isMounted &&
           items.map((item, i) => (
