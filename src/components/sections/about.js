@@ -140,6 +140,8 @@ const About = () => {
     'Next.js',
     'Node.js',
     'WordPress',
+    'Git & Git(hub,lab)',
+    'REST APIs',
   ];
 
   return (
