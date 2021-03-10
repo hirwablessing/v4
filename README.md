@@ -2,10 +2,10 @@
   <img alt="Logo" src="https://raw.githubusercontent.com/bchiang7/v4/main/src/images/#CBBA9C" width="100" />
 </div>
 <h1 align="center">
-  hirwab-blessing.netflify.com - v2
+  hirwa-blessing.netlify.app - v2
 </h1>
 <p align="center">
-  The second iteration of <a href="https://brittanychiang.com" target="_blank">brittanychiang.com</a> built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and hosted with <a href="https://www.netlify.com/" target="_blank">Netlify</a>
+  The second iteration of <a href="http://hirwa-blessing.netlify.app/" target="_blank">brittanychiang.com</a> built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and hosted with <a href="https://www.netlify.com/" target="_blank">Netlify</a>
 </p>
 
 ## 🛠 Installation & Set Up
