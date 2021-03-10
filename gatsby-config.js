@@ -5,7 +5,7 @@ module.exports = {
     title: 'Blessing Hirwa',
     description:
       'Blessing Hirwa is a software engineer specializing in building (and occasionally designing) exceptional websites, applications, and everything in between.',
-    siteUrl: 'https://brittanychiang.com', // No trailing slash allowed!
+    siteUrl: 'https://hirwa-blessing.netlify.app/', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@graphicblessing',
   },
